@@ -1,0 +1,31 @@
+#contato label { 
+	display: block; 
+	margin: 0.5em; 
+	padding: 5px;
+}
+
+#contato input, textarea { 
+	text-align: left; 
+}
+
+#contato input.submit { 
+	text-align: center; 
+}
+
+#contato fieldset { 
+	padding: 1em;
+	padding-bottom: 10%;
+}
+
+#contato fieldset span { 
+	float: left; 
+	width: 6em; 
+	text-align: left; 
+	padding-right: 0.5em; 
+}
+
+#contato fieldset div  { 
+    padding: 20px;
+
+	display: inline-block;	
+}

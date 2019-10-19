@@ -1,0 +1,367 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./complementos/css/reset.css" rel="stylesheet" />
+	<link href="./complementos/css/style.css" rel="stylesheet" />
+	<title>Projeto HTML FIAP - Enoch Henrique J. S.</title>
+</head>
+
+<body onload="load()">
+	<header role="header" class="header">
+		<div class="resume-item_footer resume-item_presentation">
+			<div class="resume-item-footer resume-redes_sociais">
+				<a href="https://github.com" target="_blank"><img src="./complementos/images/footer-github.png"
+						alt="Github" height="20px" height="20px"></a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="https://www.linkedin.com/in/enoch-souza-b11b2350/" target="_blank"><img
+						src="./complementos/images/footer-linkedin.png" alt="Linkedin" height="20px"></a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="http://www.facebook.com" target="_blank"><img src="./complementos/images/footer-facebook.png"
+						alt="Facebook" height="20px"></a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="http://www.twitter.com" target="_blank"><img src="./complementos/images/footer-twitter.png"
+						alt="Twitter" height="20px"></a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="http://www.google.com.br" target="_blank"><img src="./complementos/images/footer-g+.png"
+						alt="Google+" height="20px"></a>
+			</div>
+
+			<div class="topnav" id="myTopnav">
+				<a href="#home" class="active">Home</a>
+				<a href="#experiencia">Experiência</a>
+				<a href="#formacao">Formação</a>
+				<a href="#habilidades">Habilidades</a>
+				<a href="#contato">Contato</a>
+				<a href="javascript:void(0);" class="icon" onclick="cliqueMenu()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+	</header>
+</body>
+<main role="main" class="main">
+	<section id="home">
+		<div class="resume">
+			<!-- <div class="resume-item resume-item_foto_perfil">
+				</div> -->
+			<br>
+			<img src="complementos/images/Perfil.jpg" alt="Smiley face" height="150" width="150">
+			<br>
+			<div class="resume-item resume-item_bio">
+				<span class="title large">Enoch Henrique<br><br><br></span>
+				<span class="title">Analista de Sistemas<br><br></span>
+				<span class="title">Telefone:<br></span>
+				<span>(11) 9.8538-2828<br><br></span>
+				<span class="title">E-mail:<br></span>
+				<span>enoch.henrique@gmail.com<br><br></span>
+				<span class="title">Endereço:<br></span>
+				<span>Rua: João Navarro Botelho,54<br> São Paulo - SP<br><br></span>
+			</div>
+		</div>
+	</section>
+	<section id="experiencia">
+		<p class="section_sep">
+			<br><br>
+			Experiência
+		</p>
+		<div class="tab" id="myTabnav">
+			<nav>
+				<a href="javascript:void(0);" onclick="cliqueTab(0)" id="tab_0">Banco Safra</a>
+				<a href="javascript:void(0);" onclick="cliqueTab(1)" id="tab_1">Portal de Documentos</a>
+				<a href="javascript:void(0);" onclick="cliqueTab(2)" id="tab_2">Supermercado Yamauchi</a>
+				<a href="javascript:void(0);" onclick="cliqueTab(3)" id="tab_3">Sonda IT</a>
+			</nav>
+		</div>
+
+		<div class="tab-item_text enabled" id="tab-item-text_0">
+			<p align="justify">
+				<br><br>
+				Banco Safra
+				<br><br>
+				Cargo: Analista de Sistema PL
+				<br><br>
+				Período: 10/2018 - Atual
+				<br><br>
+				Desenvolvimento e Manutenção em VB6, VB.NET, C#, ASP.net em sistemas internos (Atendimento de Demandas
+				da área usuárias internas do Banco), Banco de Dados SQL Server
+				<br><br>
+				Desenvolvimentos em diversos Sistemas da área de Fundos de Investimento (Carteira Administrada / Site de
+				Asset / Internet Bank)
+				<br><br>
+			</p>
+		</div>
+		<div class="tab-item_text disabled" id="tab-item-text_1">
+			<p align="justify">
+				<br><br>
+				Portal de Documentos
+				<br><br>
+				Cargo: Analista de Sistema PL
+				<br><br>
+				Período: 06/2018 a 09/2018
+				<br><br>
+				Desenvolvimento e Manutenção em C#, ASP.net em sistemas internos (Atendimento de Demandas de Clientes
+				Internos na área de instituição Bancaria), Banco de Dados Oracle.
+				<br><br>
+				Criação e Desenvolvimento Interno (Intranet) para auxilio dos procedimentos efetuados envolvendo todas
+				as áreas da Empresa – Fluxo de Atividades (Criado um sistema para padronizar processos e unificar os
+				dados entre as áreas).
+				<br><br>
+			</p>
+		</div>
+		<div class="tab-item_text disabled" id="tab-item-text_2">
+			<p align="justify">
+				<br><br>
+				Supermercador Yamauchi
+				<br><br>
+				Cargo: Analista de Sistema
+				<br><br>
+				Período: 06/2016 a 04/2018
+				<br><br>
+				Desenvolvimento e Manutenção em VB.NET, C# e ASP.NET em sistema que envolve todas áreas da
+				Empresa(Fiscal / Contabilidade / Recebimento de Mercadorias / Compras / Perdas e Prevenção –
+				Inventários) na linguagem de banco de dados Oracle (PLSQL).
+				<br><br>
+				Criação e Desenvolvimento Interno (Intranet) para auxilio dos procedimentos efetuados envolvendo todas
+				as áreas da Empresa (Setor de Manutenção, Financeiro, Recebimento, Estoque) - (Criado um sistema para
+				padronizar processos e unificar os dados entre as áreas).
+				<br><br>
+				ERP CONSINCO – Sistema de ERP Interno – Utilização dos Diversos Módulos do Sistema, responsável por
+				entender e repassar as diversas utilidades da ferramenta e efetuar treinamentos para os usuários,
+				atualização do sistema, conhecimento em vários módulos.
+				<br><br>
+				Coletores Inteligentes – Stand-Alone (chipherlab cpt 8001/8000) – foram criados e ajustados vários
+				processos necessários para a redução de custos operacionais e financeiro.
+				Melhoria dos processos internos - desenvolvido um sistema na intranet e a sincronização dos coletores
+				(Sistema Android) com o ERP CONSINCO para controle de validades e controle de lotes de entrada de
+				mercadorias.
+				<br><br>
+			</p>
+		</div>
+		<div class="tab-item_text disabled" id="tab-item-text_3">
+			<p align="justify">
+				<br><br>
+				Sonda IT
+				<br><br>
+				Cargo: Coordenador de Projetos
+				<br><br>
+				Período: 06 /2007 a 12/2015
+				<br><br>
+				Desenvolvimento e manutenção em C#, VB6, Java Script, três camadas – componentes em C# – banco de dados
+				Oracle 10g e 9i, banco de dados SQL Server 2000, inclusive desenvolvimento de stored procedures e
+				packages. Configuração e administração de servidores de desenvolvimento (banco de dados, rede local, MS
+				Source Safe), atendimento a ocorrências e suporte técnico ao usuário.
+				<br>
+				Coordenador de Projetos equipe de ICMS/ SPED FISCAL /PIS COFINS/ SPEED CONTABIL- ECD/ DIPJ/ ECF –
+				gerenciamento da equipe, Elaboração de Cronogramas, Faturamento de Contratos.
+				<br>
+				Atuação em Diversos clientes como:
+				<br>
+				• Makro Atacadista - Atualização e Implantação de diversos Projetos e Processamento Mensal..
+				<br>
+				• SPED FISCAL, SPED CONTRIBUIÇÕES (PIS/COFINS), SPED CONTABIL – Acompanhamento, Ajuste de
+				Inconsistências, Validação em geral.
+				<br>
+				• ICMS (SINTEGRA – Coordenador de Equipe ) – Acompanhamento, Ajustes e Validações de Gias e Obrigações
+				Acessórias do Cliente(Convênio ICMS 57).
+				<br>
+				• Nike do Brasil - (Atualização e Implantação de diversos Projetos e Processamento Mensal – SPED FISCAL
+				– CIAP – ICMS (SINTEGRA)).
+				<br>
+				• Brasil Telecom (Oi Telefonia celular) - Brasília (Atualização e Implantação de diversos Projetos
+				Fiscais)
+				<br>
+				• Microsoft (Atualização de sistemas - Dynamics).
+				<br>
+				• Servimed – Brasília (Suporte aos sistemas e Atualização de versões de Sistemas).
+				<br><br>
+			</p>
+		</div>
+	</section>
+
+	<!-- Formacao -->
+	<section id="formacao">
+		<p class="section_sep">
+			<br><br>
+			Formação
+			<br><br>
+		</p>
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="flip-front">
+					<img src="complementos/images/main-formacao-fiap.png" width="200px" height="120px" />
+				</div>
+				<div class="flip-back">
+					<p class="title">MOBILE DEVELOPMENT APPS, IOT, CHATBOTS & VIRTUAL ASSISTANTS</p>
+					<p><br>
+						2019 a 2020</p>
+					<p align="justify">
+						<br>
+						Criar soluções fim a fim em dispositivos móveis, desde a sua concepção,
+						propósito e plano de negócio até o desenvolvimento em diferentes plataformas,
+						publicação nas lojas de aplicativos e integração com diferentes provedores de
+						serviços de nuvem, principalmente os que têm foco em assistentes pessoais e
+						inteligência artificial.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="flip-front">
+					<img src="complementos/images/Log_UniNove.jpg" width="150px" height="150px" />
+				</div>
+				<div class="flip-back">
+					<p class="title">BACHARELADO EM CIÊNCIAS DA COMPUTAÇÃO</p>
+					<p><br>
+						06/2004 a 06/2008</p>
+					<p align="justify">
+						<br>
+						Base de Conhecimento em diversas area a Computação.
+						<br>
+						Noçoes Basicas em Desenvolvimento de Software e Banco de Dados (Oracle / SQL ).
+						<br>
+						Noções Basicas em Java
+						<br>
+						Noções Basicas em Segurança da Informação.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="flip-front">
+					<img src="complementos/images/logo_Cultura.png" width="200px" height="120px" />
+				</div>
+				<div class="flip-back">
+					<p class="title">Inglês</p>
+					<p><br>
+						Estudando Atualmente</p>
+					<p align="justify">
+						<br>
+						Nivel - Intermediario
+						<br>
+						Periodo Noturno.
+						<br>
+
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="flip-front">
+					<img src="complementos/images/log_kasolution.png" width="200px" height="120px" />
+				</div>
+				<div class="flip-back">
+					<p class="title">Inglês</p>
+					<p><br>
+						Atual</p>
+					<p align="justify">
+						<br>
+						Java Programmer - Concluido.
+						<br>
+						UML - Concluido.
+						<br>
+						SQL Server (Modulos 1,2).
+						<br>
+						VB.Net.
+						<br>
+						C# - Plataforma .NET.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<br>
+	<!--Habilidadessss-->
+	<section id="habilidades">
+		<p class="section_sep">
+			<br><br>
+			Habilidades
+		</p>
+
+		<!--TEXTO-->
+		<div class="skill skill-l">
+			<p class="title large">Habilidade(s) </p>
+			<p align="justify">
+				<br><br>
+				Conhecimento diversificado em desenvolvimento .NET - diversos desenvolvimentos na plataforma.
+				<br><br>
+				Bancos de Dados (Oracle - PLSql) - Certificação OCA - Migrando para OCP.
+				<br><br>
+				Visual Basic 6 - diversos desenvolvimentos novos e manutenção para varios Clientes.
+				<br><br>
+			</p>
+		</div>
+
+		<!--PORCENTAGENS-->
+		<div class="skill skill-r">
+			<p class="title">.NET (97%)<br></p>
+			<div class="perc_full">
+				<div class="perc_97">&nbsp;</div>
+			</div>
+			<p class="title"><br><br>SQL Server (95%)<br></p>
+			<div class="perc_full">
+				<div class="perc_95">&nbsp;</div>
+			</div>
+			<p class="title"><br><br>Oracle(100%)<br></p>
+			<div class="perc_full">
+				<div class="perc_full">&nbsp;</div>
+			</div>
+			<p class="title"><br><br>Visual Basic 6(99%)<br></p>
+			<div class="perc_full">
+				<div class="perc_99">&nbsp;</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contato">
+		<p class="section_sep">
+			<br><br>
+			Entre em Contato
+		</p>
+		<form>
+			<fieldset>
+				<div>
+					<label>
+						<span>Nome:</span>
+						<input type="text" size="40" class="field-name" id="name" name="name" />
+					</label>
+
+					<label>
+						<span>Assunto:</span>
+						<input type="text" size="40" class="field-assunto" id="assunto" name="assunto" />
+					</label>
+
+					<label>
+						<span>E-mail:</span>
+						<input type="text" size="40" class="field-email" id="email" name="email" />
+					</label>
+
+					<label>
+						<span>Mensagem:</span>
+						<textarea rows="10" cols="42" class="field-message" id="message" name="message"></textarea>
+					</label>
+					<button type="button" onclick="enviar()">Enviar</button>
+				</div>
+
+			</fieldset>
+		</form>
+	</section>
+
+
+</main>
+<footer role="footer" class="footer">
+	<!--Botão Inicio para voltar ao topo-->
+	<button class="btn__back-to-top"> Inicio Pagina </button>
+
+</footer>
+
+<!--JavaScript sempre no final da pagina norma de bons costumes-->
+<script src="./complementos/js/load.js"></script>
+<script src="./complementos/js/BackToTop.js"></script>
+<script src="./complementos/js/menuresponsivo.js"></script>
+
+</html>

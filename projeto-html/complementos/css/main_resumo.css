@@ -1,0 +1,64 @@
+.main{
+    background-color: white;
+    background-image: url(../images/como-funciona-o-sistema-binario.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: content-box;
+    /* opacity: 0.5; */
+
+    height: 490px;
+    color: black;
+    text-align: center;
+}
+.resume-item_photo {
+	background-color: var(--main-marine);
+    background-image: url(../images/Perfil.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: content-box;
+}
+.resume-item_foto_perfil{
+    background-image: url(../images/Perfil.jpg);
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    background-position: center;
+    
+}
+.resume-item {
+    margin: 30px 0px 0px 0px;
+    padding: 50px;
+	width: 25%;
+	height: 180px;
+	display: inline-block;
+}
+
+.resume-item-footer {
+	width: 100%;
+    height: 23px;
+    padding: 5px;
+	display: inline-block;
+}
+.resume-item_bio {
+	background-color: var(--main-feather);
+}
+
+.resume-item_bio span {
+	display: block;
+}
+
+.resume-redes_sociais {
+    background-color: black;
+}
+
+.resume-item_presentation {
+    background-color: var(--main-paper);
+	padding-bottom: 20px;
+}
+
+.resume-item_presentation.text {
+    padding: 30px;
+	line-height: 1.5;
+}
+

@@ -1,0 +1,14 @@
+.footer{
+    /* background-color: var(--main-feather); */
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+    font-size: 14px;
+    font-weight: 14px;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}

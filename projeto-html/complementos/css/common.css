@@ -1,0 +1,44 @@
+:root {
+  --main-feather: rgb(166, 220, 252);
+  --main-marine: rgb(12, 12, 12);
+  --main-forest:#141414;
+  --main-sleek-grey:#A5A5AF;
+  --main-paper:#D5D5D5;
+}
+
+.header, .main, .footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section_sep {
+    font-weight: bold;
+	font-size: 24px;
+	color: var(--main-forest);
+}
+
+body { 
+	font-size: 80%; 
+}
+
+.title {
+    font-weight: bold;
+}
+
+.large {
+    font-size: 16px;
+}
+
+.medium {
+    font-size: 14px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.left {
+	float:left;
+}		
+.right {
+	float:right;
+}

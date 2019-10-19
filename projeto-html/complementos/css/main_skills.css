@@ -1,0 +1,44 @@
+.skill {
+	margin: 50px 10px;
+    padding: 20px;	
+	width: 25%;	
+	display: inline-block;
+	line-height: 1.5;
+	
+}
+.skill-l {
+	background-color: orange;
+}
+
+.perc_full {
+	width: 99%;
+	height: 20px;
+	background-color: var(--main-sleek-grey);
+}
+.perc_95 {
+	width: 95%;
+	height: 20px;
+	background-color: var(--main-marine);
+}
+
+.perc_75 {
+	width: 75%;
+	height: 20px;
+	background-color: var(--main-marine);
+}
+
+.perc_80 {
+	width: 80%;
+	height: 20px;
+	background-color: var(--main-marine);
+}
+.perc_97 {
+	width: 97%;
+	height: 20px;
+	background-color: var(--main-marine);
+}
+.perc_99 {
+	width: 99%;
+	height: 20px;
+	background-color: var(--main-marine);
+}
